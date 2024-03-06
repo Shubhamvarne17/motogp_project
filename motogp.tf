@@ -17,7 +17,7 @@ variable "region" {
 }
 
 variable "ami" {
-    default = "ami-03f4878755434977f"
+    default = "ami-03bb6d83c60fc5f7c"
   
 }
 
@@ -27,13 +27,13 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-    default = "abhi_mumbai_dell"
+    default = "terra"
   
 }
 
 terraform {
   backend "s3" {
-    bucket = "abhishek9130142892"
+    bucket = "shubhamvarne.shop"
     region = "ap-south-1"
     key = "terraform.tfstate"
     
