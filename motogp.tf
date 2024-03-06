@@ -33,7 +33,7 @@ variable "key_name" {
 
 terraform {
   backend "s3" {
-    bucket = "shubhamvarne.shop"
+    bucket = "kaustubh1006"
     region = "ap-south-1"
     key = "terraform.tfstate"
     
